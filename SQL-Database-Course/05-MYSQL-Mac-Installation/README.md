@@ -1,7 +1,13 @@
-# Lesson 5 (MYSQL Mac Installation)
+# Lesson 5: MySQL Mac Installation
 
 
-Download mySQL Community Server:
-- https://dev.mysql.com/downloads/mysql/
+This lesson provides the resources for setting up MySQL on a macOS system.
 
-Follow : https://www.mikedane.com/databases/sql/mysql-mac-installation/
+
+## 1. Download Database Engine
+
+* **Download Link:** [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+
+## 2. Installation Guide
+
+* **Tutorial:** [Follow this guide for Mac Installation](https://www.mikedane.com/databases/sql/mysql-mac-installation/)

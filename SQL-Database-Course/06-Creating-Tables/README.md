@@ -1,27 +1,37 @@
-# Lesson 8 (Constraints)
+# Lesson 6: Creating Tables
 
 
-For Unique element in every column : (Use this while creating a table)
+> **Note:** Whenever we are creating a database, the first thing we do is define a schema, create all the different tables, and then we start inserting data.
+
+
+## 1. Creating a Table
+
+This command establishes the structure of your data by defining columns and their data types.
 
 ```sql
---major VARCHAR(20) UNIQUE,
+-- Create the Student table
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(20),
+    major VARCHAR(20)
+);
 ````
 
+## 2\. Managing Table Structure
+
+Once a table is created, you can view its details, modify its columns, or delete it entirely.
+
 ```sql
-CREATE TABLE student (
-    student_id INT AUTO_INCREMENT,
-    name VARCHAR(20) NOT NULL,
-    major VARCHAR(20) DEFAULT 'undefined',
-    PRIMARY KEY(student_id)
-);
+-- View the table structure (columns, types, keys)
+DESCRIBE student;
 
-SELECT * FROM student;
+-- Add a new column (GPA)
+-- DECIMAL(4, 2) means 4 total digits, 2 after the decimal (e.g., 4.00)
+ALTER TABLE student ADD gpa DECIMAL(4, 2);
 
-INSERT INTO student(name) VALUES('Jack');
-INSERT INTO student(name, major) VALUES('Kate', 'Sociology');
-INSERT INTO student(major, name) VALUES('English', 'Claire');
-INSERT INTO student(name, major) VALUES('Jack', 'Biology');
-INSERT INTO student(name, major) VALUES('Mike', 'Computer Science');
+-- Remove a column
+ALTER TABLE student DROP COLUMN gpa;
 
+-- Delete the table entirely
 DROP TABLE student;
 ```
