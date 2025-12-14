@@ -99,6 +99,7 @@ A complete ER Diagram combines these elements to tell a story about the data:
 4.  **Lines** (Single/Double) show participation requirements.
 5.  **Letters** (1, N, M) show cardinality constraints.
 
+```mermaid
 flowchart TD
     %% Entities
     Student[Student]
@@ -113,13 +114,13 @@ flowchart TD
     name([name])
     fname([fname])
     lname([lname])
-    sid([<u>student_id</u>])
+    sid([student_id])
     gpa([gpa])
     clubs([clubs]):::multi
     honors([has_honors]):::derived
 
     %% Attributes for Class
-    cid([<u>class_id</u>])
+    cid([class_id])
 
     %% Attributes for Exam
     ename([exam_name]):::dashedUnderline
@@ -148,9 +149,10 @@ flowchart TD
 
     Exam --- ename
 
-    %% Styling to match ER Notation
+    %% Styling
     classDef weak fill:#f9f,stroke:#333,stroke-width:4px;
     classDef weakRel fill:#ff9,stroke:#333,stroke-width:4px,shape:diamond;
     classDef multi stroke:#333,stroke-width:4px;
     classDef derived stroke-dasharray: 5 5;
     classDef dashedUnderline stroke-dasharray: 0;
+```
