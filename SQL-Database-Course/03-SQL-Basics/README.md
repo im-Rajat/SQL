@@ -1,5 +1,6 @@
 # Lesson 3 (SQL Basic)
 
+
 SQL is actually a hybrid language, it's basically **4 types of languages** in on
 * Data Query Language (DQL)
 * Data Definition Language (DDL)
