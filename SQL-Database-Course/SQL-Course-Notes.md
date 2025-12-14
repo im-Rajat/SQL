@@ -1,34 +1,38 @@
-# Master SQL Course Notes
+# SQL Course Notes
 
 
 **Table of Contents**
 
 1.  **Introduction & Theory**
-    * [Lesson 1: What is SQL?](#lesson-1-sql)
-    * [Lesson 2: Tables and Keys](#lesson-2-tables-and-keys)
-    * [Lesson 3: SQL Basics](#lesson-3-sql-basics)
+      * [Lesson 1: What is SQL?](https://www.google.com/search?q=%23lesson-1-sql)
+      * [Lesson 2: Tables and Keys](https://www.google.com/search?q=%23lesson-2-tables-and-keys)
+      * [Lesson 3: SQL Basics](https://www.google.com/search?q=%23lesson-3-sql-basics)
 2.  **Installation**
-    * [Lesson 4: Windows Installation](#lesson-4-mysql-windows-installation)
-    * [Lesson 5: Mac Installation](#lesson-5-mysql-mac-installation)
+      * [Lesson 4: Windows Installation](https://www.google.com/search?q=%23lesson-4-mysql-windows-installation)
+      * [Lesson 5: Mac Installation](https://www.google.com/search?q=%23lesson-5-mysql-mac-installation)
 3.  **Basic Database Management (Student DB)**
-    * [Lesson 6: Creating Tables](#lesson-6-creating-tables)
-    * [Lesson 7: Inserting Data](#lesson-7-inserting-data)
-    * [Lesson 8: Constraints](#lesson-8-constraints)
-    * [Lesson 9: Update & Delete](#lesson-9-update--delete)
-    * [Lesson 10: Basic Queries](#lesson-10-basic-queries)
+      * [Lesson 6: Creating Tables](https://www.google.com/search?q=%23lesson-6-creating-tables)
+      * [Lesson 7: Inserting Data](https://www.google.com/search?q=%23lesson-7-inserting-data)
+      * [Lesson 8: Constraints](https://www.google.com/search?q=%23lesson-8-constraints)
+      * [Lesson 9: Update & Delete](https://www.google.com/search?q=%23lesson-9-update--delete)
+      * [Lesson 10: Basic Queries](https://www.google.com/search?q=%23lesson-10-basic-queries)
 4.  **Complex Database Structure (Company DB)**
-    * [Lesson 12: Creating Company Database](#lesson-12-creating-company-database)
-    * [Lesson 13: Basic Queries on Company DB](#lesson-13-more-basic-queries)
-    * [Lesson 14: SQL Functions](#lesson-14-functions)
-    * [Lesson 15: Wildcards](#lesson-15-wildcards)
+      * [Lesson 12: Creating Company Database](https://www.google.com/search?q=%23lesson-12-creating-company-database)
+      * [Lesson 13: Basic Queries on Company DB](https://www.google.com/search?q=%23lesson-13-more-basic-queries)
+      * [Lesson 14: SQL Functions](https://www.google.com/search?q=%23lesson-14-functions)
+      * [Lesson 15: Wildcards](https://www.google.com/search?q=%23lesson-15-wildcards)
 5.  **Advanced SQL Operations**
-    * [Lesson 16: Unions](#lesson-16-unions)
-    * [Lesson 17: Joins](#lesson-17-joins)
-    * [Lesson 18: Nested Queries](#lesson-18-nested-queries)
-    * [Lesson 19: On Delete Actions](#lesson-19-on-delete)
-    * [Lesson 20: Triggers](#lesson-20-triggers)
+      * [Lesson 16: Unions](https://www.google.com/search?q=%23lesson-16-unions)
+      * [Lesson 17: Joins](https://www.google.com/search?q=%23lesson-17-joins)
+      * [Lesson 18: Nested Queries](https://www.google.com/search?q=%23lesson-18-nested-queries)
+      * [Lesson 19: On Delete Actions](https://www.google.com/search?q=%23lesson-19-on-delete)
+      * [Lesson 20: Triggers](https://www.google.com/search?q=%23lesson-20-triggers)
+6.  **Database Design & Theory**
+      * [Lesson 21: ER Diagrams Intro](https://www.google.com/search?q=%23lesson-21-er-diagrams-intro)
+      * [Lesson 22: Designing an ER Diagram](https://www.google.com/search?q=%23lesson-22-designing-an-er-diagram)
+      * [Lesson 23: Mapping ER Diagrams](https://www.google.com/search?q=%23lesson-23-er-diagram-mapping)
 
----
+-----
 
 # Part 1: Introduction & Theory
 
@@ -36,51 +40,52 @@
 
 **SQL (Structured Query Language)** is a language used to interact with **Relational Database Management Systems (RDBMS)**.
 
-
 ### Key Concepts
-* **Database:** Any collection of related information (e.g., Phone Book, Shopping List, Facebook user base). It can be stored on paper, in your mind, or on a computer.
-* **DBMS (Database Management System):** A special software program that helps users create and maintain a database.
-* **CRUD Operations:** The four basic functions of persistent storage:
-    * **C**reate
-    * **R**ead (Retrieve)
-    * **U**pdate
-    * **D**elete
+
+  * **Database:** Any collection of related information (e.g., Phone Book, Shopping List, Facebook user base). It can be stored on paper, in your mind, or on a computer.
+  * **DBMS (Database Management System):** A special software program that helps users create and maintain a database.
+  * **CRUD Operations:** The four basic functions of persistent storage:
+      * **C**reate
+      * **R**ead (Retrieve)
+      * **U**pdate
+      * **D**elete
 
 ### Two Types of Databases
 
 **1. Relational Databases (SQL)**
-* Organize data into one or more **tables**.
-* Each table has **columns** and **rows**.
-* A **unique key** identifies each row.
-* *Examples:* MySQL, Oracle, PostgreSQL, MariaDB.
+
+  * Organize data into one or more **tables**.
+  * Each table has **columns** and **rows**.
+  * A **unique key** identifies each row.
+  * *Examples:* MySQL, Oracle, PostgreSQL, MariaDB.
 
 **2. Non-Relational Databases (NoSQL)**
-* Organize data in formats other than traditional tables.
-* **Key-value stores:** Hash maps.
-* **Documents:** JSON, XML.
-* **Graphs:** Network structures.
-* *Characteristics:* Flexible tables, often used for unstructured data.
+
+  * Organize data in formats other than traditional tables.
+  * **Key-value stores:** Hash maps.
+  * **Documents:** JSON, XML.
+  * **Graphs:** Network structures.
+  * *Characteristics:* Flexible tables, often used for unstructured data.
 
 > **Wrap Up:**
-> * Databases are collections of information.
-> * DBMS makes it easy to manage and secure databases.
-> * Relational databases use SQL and store data in tables (rows/columns).
+>
+>   * Databases are collections of information.
+>   * DBMS makes it easy to manage and secure databases.
+>   * Relational databases use SQL and store data in tables (rows/columns).
 
 ## Lesson 2: Tables and Keys
 
 In a Relational Database, keys are used to establish relationships between tables and uniquely identify records.
 
-
-* **Primary Key:** A unique identifier for a specific row in a table (cannot be NULL).
-* **Foreign Key:** A field that links to the Primary Key of another table (creates relationships).
-* **Surrogate Key:** An artificial key (often a number like 1, 2, 3) that has no business meaning but is used to identify a row.
-* **Natural Key:** A key derived from the data itself (e.g., Social Security Number, Email).
-* **Composite Key:** A key composed of two or more columns to create a unique identifier.
+  * **Primary Key:** A unique identifier for a specific row in a table (cannot be NULL).
+  * **Foreign Key:** A field that links to the Primary Key of another table (creates relationships).
+  * **Surrogate Key:** An artificial key (often a number like 1, 2, 3) that has no business meaning but is used to identify a row.
+  * **Natural Key:** A key derived from the data itself (e.g., Social Security Number, Email).
+  * **Composite Key:** A key composed of two or more columns to create a unique identifier.
 
 ## Lesson 3: SQL Basics
 
 SQL is a hybrid language essentially made up of 4 types of sub-languages:
-
 
 1.  **DQL (Data Query Language):** Used to fetch data (e.g., `SELECT`).
 2.  **DDL (Data Definition Language):** Used to define the schema (e.g., `CREATE`, `DROP`, `ALTER`).
@@ -89,31 +94,32 @@ SQL is a hybrid language essentially made up of 4 types of sub-languages:
 
 **Queries:** A query is a request (set of instructions) made to the DBMS to retrieve specific information.
 
----
+-----
 
 # Part 2: Installation
 
 ## Lesson 4: MySQL Windows Installation
 
 **Required Software:**
-* **Database Engine:** [MySQL Community Downloads](https://dev.mysql.com/downloads/mysql/)
-    * *Instruction:* Install **MySQL Server** and **MySQL Shell** only.
-* **Visualization Tool:** [PopSQL](https://popsql.com/)
+
+  * **Database Engine:** [suspicious link removed]
+      * *Instruction:* Install **MySQL Server** and **MySQL Shell** only.
+  * **Visualization Tool:** [PopSQL](https://popsql.com/)
 
 ## Lesson 5: MySQL Mac Installation
 
 **Required Software:**
-* **Database Engine:** [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
-* **Guide:** [Mac Installation Tutorial](https://www.mikedane.com/databases/sql/mysql-mac-installation/)
 
----
+  * **Database Engine:** [suspicious link removed]
+  * **Guide:** [Mac Installation Tutorial](https://www.mikedane.com/databases/sql/mysql-mac-installation/)
+
+-----
 
 # Part 3: Basic Database Management (Student DB)
 
 ## Lesson 6: Creating Tables
 
-> **Note:** The standard workflow is: Define Schema -> Create Tables -> Insert Data.
-
+> **Note:** The standard workflow is: Define Schema -\> Create Tables -\> Insert Data.
 
 ```sql
 -- Create the Student table
@@ -132,7 +138,7 @@ ALTER TABLE student DROP COLUMN gpa;
 
 -- Deleting the table
 DROP TABLE student;
-````
+```
 
 ## Lesson 7: Inserting Data
 
@@ -293,8 +299,6 @@ CREATE TABLE branch_supplier (
   PRIMARY KEY(branch_id, supplier_name),
   FOREIGN KEY(branch_id) REFERENCES branch(branch_id) ON DELETE CASCADE
 );
-
--- (Insert Data Section Omitted for Brevity - Refer to original setup script for values)
 ```
 
 ## Lesson 13: More Basic Queries
@@ -507,3 +511,91 @@ SELECT * FROM trigger_test; -- Should show 'added female employee'
 -- Cleanup
 DROP TRIGGER my_trigger;
 ```
+
+-----
+
+# Part 6: Database Design & Theory
+
+## Lesson 21: ER Diagrams Intro
+
+**ER (Entity Relationship) Diagrams** are visual tools used to design databases. They convert business requirements into a blueprint for a database schema.
+
+### Core Components
+
+| Component | Symbol | Definition | Example |
+| :--- | :--- | :--- | :--- |
+| **Entity** | **Rectangle** | An object to store info about. | `Student` |
+| **Attribute** | **Oval** | Information about an entity. | `name`, `gpa` |
+| **Primary Key** | **Underlined** | Unique identifier attribute. | `<u>student_id</u>` |
+| **Relationship** | **Diamond** | Connection between entities. | Student **Takes** Class |
+
+### Advanced Attributes
+
+  * **Composite:** Broken into sub-parts (e.g., Name -\> First, Last).
+  * **Multi-valued (Double Oval):** More than one value allowed (e.g., `clubs`).
+  * **Derived (Dashed Oval):** Calculated from other data (e.g., `has_honors` from GPA).
+
+## Lesson 22: Designing an ER Diagram
+
+**Case Study: Company Database**
+
+### Requirements
+
+1.  **Employees:** Work for **1** branch, can supervise **N** employees.
+2.  **Branches:** Managed by **1** employee.
+3.  **Clients:** Handled by **1** branch.
+4.  **Works With:** Many-to-Many relationship (Employees sell to Clients).
+
+### Visual Diagram (Mermaid.js)
+
+```mermaid
+flowchart TD
+    %% Entities
+    Branch[Branch]
+    Employee[Employee]
+    Client[Client]
+    Supplier[Branch Supplier]:::weak
+
+    %% Relationships
+    Works_For{Works For}
+    Manages{Manages}
+    Handles{Handles}
+    Works_With{Works With}
+    Supplies{Supplies}:::weakRel
+    Supervision{Supervision}
+
+    %% Connections
+    Employee ---|N| Works_For ---|1| Branch
+    Employee ---|1| Manages ---|1| Branch
+    Branch ---|1| Handles ---|N| Client
+    Employee ---|M| Works_With ---|N| Client
+    Supplier ---|M| Supplies ---|N| Branch
+    Employee ---|1| Supervision ---|N| Employee
+
+    %% Attributes (Simplified)
+    Branch --- bid([<u>branch_id</u>])
+    Employee --- eid([<u>emp_id</u>])
+    Client --- cid([<u>client_id</u>])
+    Supplier --- sname([<u>supplier_name</u>]):::dashedUnderline
+
+    %% Styling
+    classDef weak fill:#f9f,stroke:#333,stroke-width:4px;
+    classDef weakRel fill:#ff9,stroke:#333,stroke-width:4px,shape:diamond;
+    classDef dashedUnderline stroke-dasharray: 0;
+```
+
+## Lesson 23: ER Diagram Mapping
+
+The process of converting an ER Diagram into a Relational Schema (Tables).
+
+### The 5 Step Mapping Rules
+
+1.  **Regular Entities:** Create a table for every strong entity (`Employee`, `Branch`, `Client`).
+2.  **Weak Entities:** Create a table including the **Owner's Primary Key**.
+      * *Example:* `Branch_Supplier` Table includes `branch_id`.
+3.  **Binary 1:1 Relationships:** Add the PK of the "Total Participation" side as a FK to the other.
+      * *Example:* `Manages` -\> Add `mgr_id` to `Branch`.
+4.  **Binary 1:N Relationships:** Add the PK of the "1" side as a FK to the "N" side.
+      * *Example:* `Works_For` -\> Add `branch_id` to `Employee`.
+5.  **Binary M:N Relationships:** Create a **New Table** with Composite Primary Keys.
+      * *Example:* `Works_With` Table (`emp_id`, `client_id`, `total_sales`).
