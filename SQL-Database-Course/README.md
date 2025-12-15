@@ -9,33 +9,33 @@
 **Table of Contents**
 
 1.  **Introduction & Theory**
-      * [Lesson 1: What is SQL?](https://www.google.com/search?q=%23lesson-1-sql)
-      * [Lesson 2: Tables and Keys](https://www.google.com/search?q=%23lesson-2-tables-and-keys)
-      * [Lesson 3: SQL Basics](https://www.google.com/search?q=%23lesson-3-sql-basics)
+      * [Lesson 1: What is SQL?](#lesson-1-sql)
+      * [Lesson 2: Tables and Keys](#lesson-2-tables-and-keys)
+      * [Lesson 3: SQL Basics](#lesson-3-sql-basics)
 2.  **Installation**
-      * [Lesson 4: Windows Installation](https://www.google.com/search?q=%23lesson-4-mysql-windows-installation)
-      * [Lesson 5: Mac Installation](https://www.google.com/search?q=%23lesson-5-mysql-mac-installation)
+      * [Lesson 4: Windows Installation](#lesson-4-mysql-windows-installation)
+      * [Lesson 5: Mac Installation](#lesson-5-mysql-mac-installation)
 3.  **Basic Database Management (Student DB)**
-      * [Lesson 6: Creating Tables](https://www.google.com/search?q=%23lesson-6-creating-tables)
-      * [Lesson 7: Inserting Data](https://www.google.com/search?q=%23lesson-7-inserting-data)
-      * [Lesson 8: Constraints](https://www.google.com/search?q=%23lesson-8-constraints)
-      * [Lesson 9: Update & Delete](https://www.google.com/search?q=%23lesson-9-update--delete)
-      * [Lesson 10: Basic Queries](https://www.google.com/search?q=%23lesson-10-basic-queries)
+      * [Lesson 6: Creating Tables](#lesson-6-creating-tables)
+      * [Lesson 7: Inserting Data](#lesson-7-inserting-data)
+      * [Lesson 8: Constraints](#lesson-8-constraints)
+      * [Lesson 9: Update & Delete](#lesson-9-update--delete)
+      * [Lesson 10: Basic Queries](#lesson-10-basic-queries)
 4.  **Complex Database Structure (Company DB)**
-      * [Lesson 12: Creating Company Database](https://www.google.com/search?q=%23lesson-12-creating-company-database)
-      * [Lesson 13: Basic Queries on Company DB](https://www.google.com/search?q=%23lesson-13-more-basic-queries)
-      * [Lesson 14: SQL Functions](https://www.google.com/search?q=%23lesson-14-functions)
-      * [Lesson 15: Wildcards](https://www.google.com/search?q=%23lesson-15-wildcards)
+      * [Lesson 12: Creating Company Database](#lesson-12-creating-company-database)
+      * [Lesson 13: Basic Queries on Company DB](#lesson-13-more-basic-queries)
+      * [Lesson 14: SQL Functions](#lesson-14-functions)
+      * [Lesson 15: Wildcards](#lesson-15-wildcards)
 5.  **Advanced SQL Operations**
-      * [Lesson 16: Unions](https://www.google.com/search?q=%23lesson-16-unions)
-      * [Lesson 17: Joins](https://www.google.com/search?q=%23lesson-17-joins)
-      * [Lesson 18: Nested Queries](https://www.google.com/search?q=%23lesson-18-nested-queries)
-      * [Lesson 19: On Delete Actions](https://www.google.com/search?q=%23lesson-19-on-delete)
-      * [Lesson 20: Triggers](https://www.google.com/search?q=%23lesson-20-triggers)
+      * [Lesson 16: Unions](#lesson-16-unions)
+      * [Lesson 17: Joins](#lesson-17-joins)
+      * [Lesson 18: Nested Queries](#lesson-18-nested-queries)
+      * [Lesson 19: On Delete Actions](#lesson-19-on-delete)
+      * [Lesson 20: Triggers](#lesson-20-triggers)
 6.  **Database Design & Theory**
-      * [Lesson 21: ER Diagrams Intro](https://www.google.com/search?q=%23lesson-21-er-diagrams-intro)
-      * [Lesson 22: Designing an ER Diagram](https://www.google.com/search?q=%23lesson-22-designing-an-er-diagram)
-      * [Lesson 23: Mapping ER Diagrams](https://www.google.com/search?q=%23lesson-23-er-diagram-mapping)
+      * [Lesson 21: ER Diagrams Intro](#lesson-21-er-diagrams-intro)
+      * [Lesson 22: Designing an ER Diagram](#lesson-22-designing-an-er-diagram)
+      * [Lesson 23: Mapping ER Diagrams](#lesson-23-er-diagram-mapping)
 
 -----
 
