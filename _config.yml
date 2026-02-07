@@ -1,2 +1,4 @@
 title: Rajat's Notes
-theme: leap-day
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-leap-day
