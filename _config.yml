@@ -1,4 +1,2 @@
 title: Rajat's Notes
-remote_theme: cotes2020/jekyll-theme-chirpy
-plugins:
-  - jekyll-include-cache
+theme: jekyll-theme-hacker
